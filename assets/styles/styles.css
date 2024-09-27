@@ -1,0 +1,109 @@
+body {
+    background-color: #69B4FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* .contact-section {
+    flex: 1;
+    padding: 40px;
+    background-color: #fff;
+    color: #333;
+} */
+
+.contact-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.contact-section p {
+    margin: 10px;
+    margin-right: 100px;
+    font-size: 1.1em;
+}
+
+.contact-section a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* .form-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828;
+} */
+
+.form-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+}
+
+.form-container h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.form-container p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 1em;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1E90FF;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1C86EE;
+}
